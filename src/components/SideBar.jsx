@@ -11,7 +11,7 @@ const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
     [#242124]/30 to-[#000000]/30 border-r border-[#80609F]/30 backdrop-blur-3xl 
     transition-all duration-500 left-0 z-1 ${!isMenuOpen && 'max-md:-translate-x-full'}`}> 
       {/* Logo */}
-      <img src={theme === 'dark' ? assets.logo_full : assets.logo_full_dark} alt="" className='w-full max-w-48'/>
+      <img src={theme === 'dark' ? assets.sino_logo_ai_dark : assets.sino_logo_ai} alt="" className='w-full max-w-48'/>
 
       {/* New chat button */}
       <button className='flex justify-center items-center w-full py-2 mt-10 text-white bg-gradient-to-r from-[#A456F7] to-[#3D81F6] text-sm rounded-md cursor-pointer'>

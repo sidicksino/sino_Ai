@@ -13,6 +13,9 @@ import bin_icon from "./bin_icon.svg";
 import logout_icon from "./logout_icon.svg";
 import diamond_icon from "./diamond_icon.svg";
 import gallery_icon from "./gallery_icon.svg";
+// new
+import sino_logo_ai from "./sino_logo_ai.svg";
+import sino_logo_ai_dark from "./sino_logo_ai_dark.svg";
 
 import ai_image1 from "./ai_image1.jpg";
 import ai_image2 from "./ai_image2.jpg";
@@ -42,7 +45,10 @@ export const assets = {
     logout_icon,
     logo_full_dark,
     diamond_icon,
-    gallery_icon
+    gallery_icon,
+    // new
+    sino_logo_ai,
+    sino_logo_ai_dark
 };
 
 export const dummyUserData = {
